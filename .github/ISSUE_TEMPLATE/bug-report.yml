@@ -1,0 +1,96 @@
+name: Bug report
+description: Something in the app behaves incorrectly
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For a stream that will not play, please use the **Stream not playing** template instead.
+
+        Please do not include keys, credentials, or subscription URLs anywhere in this report,
+        including inside screenshots.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where does it happen
+      options:
+        - Player and playback controls
+        - Playlists
+        - TV guide (EPG)
+        - Xtream Codes
+        - Playlist sharing
+        - Settings
+        - Picture in Picture / background audio / AirPlay
+        - Somewhere else
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happens
+    attributes:
+      label: What happens
+      validations:
+        required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected instead
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open a live channel
+        2. Drag the seek bar back about a minute
+        3. Release it
+    validations:
+      required: true
+
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often
+      options:
+        - Every time
+        - Often
+        - Occasionally
+        - Happened once
+    validations:
+      required: true
+
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      placeholder: iPad Pro 11" (M4)
+    validations:
+      required: true
+
+  - type: input
+    id: os-version
+    attributes:
+      label: iOS / iPadOS version
+      placeholder: "26.1"
+    validations:
+      required: true
+
+  - type: input
+    id: app-version
+    attributes:
+      label: ClearPlayer version
+      description: Shown at the bottom of Settings.
+      placeholder: "1.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots, recordings or anything else
+      description: Drag files straight into this box.

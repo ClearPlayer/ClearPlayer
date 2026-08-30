@@ -1,0 +1,122 @@
+name: Stream not playing
+description: A DASH or HLS stream that fails to play in ClearPlayer
+title: "[Stream] "
+labels: ["stream report"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. Broken streams are the single most useful thing you can send.
+
+        **Before you continue, please read this.**
+
+        Do not post decryption keys, usernames, passwords, tokens, or any URL belonging to a
+        subscription service. Issues containing them will be deleted without a reply. If your
+        stream is private, email it instead — see the link on the issue chooser page.
+
+        Only publicly reachable streams belong here.
+
+  - type: checkboxes
+    id: no-credentials
+    attributes:
+      label: Confirmation
+      options:
+        - label: This report contains no keys, credentials, or subscription URLs.
+          required: true
+
+  - type: dropdown
+    id: stream-type
+    attributes:
+      label: Stream type
+      options:
+        - DASH (.mpd)
+        - HLS (.m3u8)
+        - Not sure
+    validations:
+      required: true
+
+  - type: dropdown
+    id: live-or-vod
+    attributes:
+      label: Live or on demand
+      options:
+        - Live
+        - On demand
+        - Not sure
+    validations:
+      required: true
+
+  - type: dropdown
+    id: encryption
+    attributes:
+      label: Encryption
+      options:
+        - Unencrypted
+        - ClearKey
+        - Not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happens
+    attributes:
+      label: What happens
+      description: What do you see when you open the channel? Quote the error message exactly if there is one.
+      placeholder: |
+        The channel loads for about two seconds, then shows "Media failed to decode".
+        Audio keeps playing, video freezes on the first frame.
+    validations:
+      required: true
+
+  - type: input
+    id: manifest-url
+    attributes:
+      label: Manifest URL
+      description: Only if it is publicly reachable and belongs to no subscription service. Leave empty otherwise.
+      placeholder: https://example.com/live/manifest.mpd
+
+  - type: textarea
+    id: playlist-entry
+    attributes:
+      label: Playlist entry
+      description: >
+        The M3U lines for this channel, with any keys removed or replaced by placeholders.
+        This helps even when you cannot share the URL.
+      render: text
+      placeholder: |
+        #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+        #KODIPROP:inputstream.adaptive.license_key=<kid>:<key>
+        #EXTINF:-1 group-title="Example",Example Channel
+        https://example.com/live/manifest.mpd
+
+  - type: input
+    id: other-players
+    attributes:
+      label: Does it work elsewhere?
+      description: Kodi, a browser, another device — knowing where it does work narrows things down a lot.
+      placeholder: Plays fine in Kodi on Android and in Chrome on desktop.
+
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      placeholder: iPhone 15 Pro
+    validations:
+      required: true
+
+  - type: input
+    id: os-version
+    attributes:
+      label: iOS / iPadOS version
+      placeholder: "26.1"
+    validations:
+      required: true
+
+  - type: input
+    id: app-version
+    attributes:
+      label: ClearPlayer version
+      description: Shown at the bottom of Settings.
+      placeholder: "1.0"
+    validations:
+      required: true
