@@ -6,9 +6,16 @@
     with <b>ClearKey</b> support
   </p>
   <p>
+      <p>
     <a href="https://apps.apple.com/it/app/clearplayer-clearkey-iptv/id6800097255">
       <img src="docs/assets/app-store-badge.svg" alt="Download on the App Store" height="54">
     </a>
+  </p>
+  <p>
+    <a href="https://t.me/clearplayerapp">
+      <img src="https://img.shields.io/badge/Telegram-Join%20the%20group-2CA5E0?logo=telegram&logoColor=white&style=for-the-badge" alt="Telegram group">
+    </a>
+  </p>
   </p>
 </div>
 
