@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and general discussion
+    url: https://github.com/n-mndv/clearplayer/discussions
+    about: Ask how something works, or talk about playlists, guides and setup.
+  - name: Private stream reports
+    url: https://t.me/misutaekkusu
+    about: If your stream is private or requires credentials, email it instead of opening a public issue.
+  - name: Rate ClearPlayer on the App Store
+    url: https://apps.apple.com/it/app/clearplayer-clearkey-iptv/id6800097255
+    about: Reviews help a lot, and they are the fastest way to support the app.
