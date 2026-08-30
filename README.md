@@ -49,7 +49,7 @@ ClearPlayer ships with **no content of any kind**. No channels, no playlists, no
 - Manual selection of video quality, audio track and subtitle track
 - Codec, bitrate and resolution readout for the active stream
 - DVR seeking on live streams, with return-to-live
-- Picture in Picture, background audio, AirPlay (not for mpd)
+- Picture in Picture, background audio, AirPlay (HLS only)
 - HEVC where the stream offers it
 
 **Playlists**
@@ -118,7 +118,7 @@ Unencrypted channels need no `#KODIPROP` lines at all.
 ## Known limitations
 
 - **Widevine and PlayReady are not supported** and will not be. ClearKey only.
-- Some live DASH streams still fail on iOS despite the workarounds below. If you have one, please report it — see the next section.
+- Some live DASH streams still fail on iOS. If you have one, please report it — see the next section.
 - The guide grid can be heavy on very large channel groups.
 - No tvOS or macOS build at the moment.
 
