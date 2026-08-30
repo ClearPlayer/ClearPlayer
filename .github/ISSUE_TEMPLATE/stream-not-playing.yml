@@ -117,6 +117,6 @@ body:
     attributes:
       label: ClearPlayer version
       description: Shown at the bottom of Settings.
-      placeholder: "1.0"
+      placeholder: "2026.0.0"
     validations:
       required: true
