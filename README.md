@@ -136,7 +136,7 @@ Broken streams are the most useful thing you can send. Open an issue with the **
 
 Playlists, guide sources and settings stay on your device. Xtream credentials and hidden playlist URLs are kept in the iOS Keychain. ClearPlayer has no account system and no server of its own: it talks only to the sources you add.
 
-The app includes Firebase Crashlytics and Analytics for crash reports and anonymous usage statistics. Full details in [PRIVACY.md](PRIVACY.md).
+The app includes Firebase Crashlytics and Analytics for crash reports and anonymous usage statistics.
 
 ---
 
