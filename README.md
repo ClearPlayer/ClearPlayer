@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="images/icon.png" alt="ClearPlayer" width="300" />
+  <img src="docs/assets/icon.png" alt="ClearPlayer" width="300" />
   <br />
   <br />
   
@@ -10,26 +10,26 @@
     <br />
     with <b>ClearKey</b> support
   </p>
-
+<a href="https://apps.apple.com/it/app/clearplayer-clearkey-iptv/id6800097255">
+  <img src="docs/assets/app-store-badge.svg" alt="Download on the App Store" height="54">
+</a>
+<br />
 </div>
 
-<a href="https://apps.apple.com/it/app/clearplayer-clearkey-iptv/id6800097255">
-  <img src="docs/assets/app-store-badge.png" alt="Download on the App Store" height="54">
-</a>
 
 ClearPlayer plays MPEG-DASH and HLS streams — live and on demand — including ClearKey-encrypted ones, with keys read directly from your playlist. It was built because iOS has no good option for this: WebKit breaks on several kinds of real-world DASH streams, and working around those breakages is most of what this app does.
 
 This repository holds the documentation and the issue tracker. The app itself is closed source.
 
----
+<!---
 
 ## Screenshots
 
 | Channels | TV guide | Player | Track selection |
 |---|---|---|---|
-| ![Channels](images/groups.jpg) | ![EPG](images/tvGuide.jpg) | ![Player](images/player.jpg) | ![Tracks](images/trackSelection.jpg) |
+| ![Channels](docs/assets/groups.jpg) | ![EPG](docs/assets/tvGuide.jpg) | ![Player](docs/assets/player.jpg) | ![Tracks](docs/assets/trackSelection.jpg) |
 
----
+--->
 
 ## What it is
 
