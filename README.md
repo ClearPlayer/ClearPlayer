@@ -1,21 +1,16 @@
 <div align="center">
-
-  <img src="docs/assets/icon.png" alt="ClearPlayer" width="300" />
-  <br />
-  <br />
-  
-  # ClearPlayer
+  <img src="docs/assets/icon.png" alt="ClearPlayer icon" width="200">
+  <h1>ClearPlayer</h1>
   <p>
-    A DASH (MPD) and HLS player for iPhone and iPad
-    <br />
+    A DASH (MPD) and HLS player for iPhone and iPad<br>
     with <b>ClearKey</b> support
   </p>
-<a href="https://apps.apple.com/it/app/clearplayer-clearkey-iptv/id6800097255">
-  <img src="docs/assets/app-store-badge.svg" alt="Download on the App Store" height="54">
-</a>
-<br />
+  <p>
+    <a href="https://apps.apple.com/it/app/clearplayer-clearkey-iptv/id6800097255">
+      <img src="docs/assets/app-store-badge.svg" alt="Download on the App Store" height="54">
+    </a>
+  </p>
 </div>
-
 
 ClearPlayer plays MPEG-DASH and HLS streams — live and on demand — including ClearKey-encrypted ones, with keys read directly from your playlist. It was built because iOS has no good option for this: WebKit breaks on several kinds of real-world DASH streams, and working around those breakages is most of what this app does.
 
