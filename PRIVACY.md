@@ -30,7 +30,7 @@ We do not sell or share data with third parties for advertising purposes. The Ap
 - Crashlytics/Analytics data is retained by Google in accordance with Firebase's retention policies.
 
 ## 5. Your Rights
-You can request information about how your data is processed, or exercise your rights under GDPR (access, deletion, objection) by writing to: **matteo.nunziati@icloud.com**
+You can request information about how your data is processed, or exercise your rights under GDPR (access, deletion, objection) by writing to: **matteo.nunziati[at]icloud.com**
 
 ## 6. Third-Party Content
 ClearPlayer does not provide any media content. The user is solely responsible for the legality of the sources (M3U playlists, EPG data) they choose to enter into the App. Use of the App to access copyrighted content without authorization is the sole responsibility of the user.
@@ -39,4 +39,4 @@ ClearPlayer does not provide any media content. The user is solely responsible f
 We reserve the right to update this policy. The date of the last update is shown at the top of this document.
 
 ## 8. Contact
-For questions about this policy: **matteo.nunziati@icloud.com**
+For questions about this policy: **matteo.nunziati[at]icloud.com**
