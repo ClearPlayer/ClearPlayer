@@ -14,7 +14,11 @@
     <a href="https://t.me/clearplayerapp">
       <img src="https://img.shields.io/badge/Telegram-Join%20the%20group-2CA5E0?logo=telegram&logoColor=white&style=for-the-badge" alt="Telegram group">
     </a>
+    <a href="https://www.reddit.com/r/ClearPlayer">
+      <img src="https://img.shields.io/badge/Reddit-Join%20the%20community-FF4500?logo=reddit&logoColor=white&style=for-the-badge" alt="Reddit community">
+    </a>
   </p>
+  
 </div>
 
 ClearPlayer plays MPEG-DASH and HLS streams — live and on demand — including ClearKey-encrypted ones, with keys read directly from your playlist. It was built because iOS has no good option for this: WebKit breaks on several kinds of real-world DASH streams, and working around those breakages is most of what this app does.
