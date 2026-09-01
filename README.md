@@ -14,9 +14,6 @@
     <a href="https://t.me/clearplayerapp">
       <img src="https://img.shields.io/badge/Telegram-Join%20the%20group-2CA5E0?logo=telegram&logoColor=white&style=for-the-badge" alt="Telegram group">
     </a>
-    <a href="https://www.reddit.com/r/ClearPlayer">
-      <img src="https://img.shields.io/badge/Reddit-Join%20the%20community-FF4500?logo=reddit&logoColor=white&style=for-the-badge" alt="Reddit community">
-    </a>
   </p>
   
 </div>
