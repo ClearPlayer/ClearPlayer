@@ -6,7 +6,7 @@
     with <b>ClearKey</b> support
   </p>
   <p>
-    <a href="https://apps.apple.com/it/app/clearplayer-clearkey-iptv/id6800097255">
+    <a href="https://apps.apple.com/us/app/clearplayer-tv/id6800097255">
       <img src="docs/assets/app-store-badge.svg" alt="Download on the App Store" height="54">
     </a>
   </p>
