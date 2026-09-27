@@ -44,7 +44,7 @@ ClearPlayer ships with **no content of any kind**. No channels, no playlists, no
 ## Features
 
 ### Playback & DRM
-- **Dual Playback Engine**: High-performance Native engine with real-time local proxy decryption, alongside a Legacy engine fallback on iOS; 100% native engine on tvOS.
+- **Dual Playback Engine**: High-performance Native engine alongside a Legacy engine fallback on iOS; 100% native engine on tvOS.
 - **MPEG-DASH (`.mpd`) & HLS (`.m3u8`)**: Live streams, DVR time-shifted streams, and VOD.
 - **Quick Play**: Instantly paste and play any raw stream URL, manifest, or M3U snippet with keys without saving a playlist.
 - **Stream Info & Diagnostics**: Real-time technical readout of resolution, frame rate, dynamic range (HDR10, HLG, Dolby Vision, SDR), video/audio codecs, audio channels, and bitrate.
